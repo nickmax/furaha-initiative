@@ -45,12 +45,12 @@
   --primary-color:                #ff3347;
   --secondary-color:              #ff3347;
   --section-bg-color:             #ffffff;
-  --site-footer-bg-color:         #ff99a2;
-  --custom-btn-bg-color:          #ff99a2;
+  --site-footer-bg-color:         #ff3347;
+  --custom-btn-bg-color:          #ff3347;
   --custom-btn-bg-hover-color:    #ff3347;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #ff3347;
+  --border-color:                 #ffffff;
 
   --body-font-family:             'Metropolis', sans-serif;
 
@@ -1557,7 +1557,7 @@ blockquote::before {
   }
 
   .site-footer {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .copyright-text-wrap {
