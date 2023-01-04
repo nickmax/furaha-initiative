@@ -45,12 +45,12 @@
   --primary-color:                #ff3347;
   --secondary-color:              #ff3347;
   --section-bg-color:             #ffffff;
-  --site-footer-bg-color:         #ff99a2;
-  --custom-btn-bg-color:          #ff99a2;
+  --site-footer-bg-color:         #ff3347;
+  --custom-btn-bg-color:          #ff3347;
   --custom-btn-bg-hover-color:    #ff3347;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 #ff3347;
+  --border-color:                 #ffffff;
 
   --body-font-family:             'Metropolis', sans-serif;
 
@@ -1085,9 +1085,9 @@ blockquote::before {
 -----------------------------------------*/
 .custom-form .form-control,
 .input-group-file {
-  background-color: var(--section-bg-color);
+  background-color: #ededed;
   box-shadow: none;
-  border: 0;
+  border: 1;
   color: var(--p-color);
   margin-bottom: 24px;
   padding-top: 13px;
@@ -1152,8 +1152,8 @@ blockquote::before {
 }
 
 .form-check-radio .form-check-input[type=radio] {
-  background-color: var(--section-bg-color);
-  border-radius: .25rem;
+  background-color: #ededed;
+  border-radius: 15rem;
   border: 0;
   box-shadow: none;
   outline: none;
@@ -1177,7 +1177,7 @@ blockquote::before {
 .form-check-radio .form-check-input:hover,
 .form-check-radio .form-check-input:checked {
   background-color: var(--secondary-color);
-  border-color: var(--white-color);
+  border-color: #ededed;
 }
 
 .input-group-file {
@@ -1557,7 +1557,7 @@ blockquote::before {
   }
 
   .site-footer {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .copyright-text-wrap {
