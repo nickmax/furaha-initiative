@@ -1766,3 +1766,8 @@ blockquote::before {
   color: #ff3347;
   text-transform: uppercase;
 }
+#gallery-btn {
+  border-radius: 10px;
+  
+}
+
