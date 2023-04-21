@@ -69,6 +69,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   
   .gallery img {
@@ -77,6 +81,7 @@
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
     transform-style: preserve-3d;
+    max-width: 500px;
   }
   
   footer {
@@ -125,6 +130,8 @@
     border: 2px solid #ff3347;
     border-radius: 30px;
     padding: 1rem;
+    /* padding: 50px 0; */
+    text-align: center;
     
   }
   
