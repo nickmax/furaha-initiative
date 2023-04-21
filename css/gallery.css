@@ -81,7 +81,7 @@
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
     transform-style: preserve-3d;
-    max-width: 500px;
+    max-width: auto;
   }
   
   footer {
