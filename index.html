@@ -646,7 +646,9 @@
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
+                        <form class="custom-form contact-form" action="https://api.web3forms.com/submit" method="post" role="form">
+                        <input type="hidden" name="access_key" value="f99e8a66-1abb-43d5-a163-20b8396f6aef">
+
                             <h2>Contact form</h2>
                             <small> Or you could send an email to:</small>
                                 <a href="mailto:nickmax110@gmail.com">
@@ -669,7 +671,7 @@
 
                             <textarea name="message" rows="5" class="form-control" id="message"
                                 placeholder="How can we help you?"></textarea>
-
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                             <button type="submit" class="form-control">Send Message</button>
                         </form>
                     </div>
