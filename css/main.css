@@ -1773,3 +1773,32 @@ blockquote::before {
   height: 50px;
 }
 
+/* CSS for responsive design */
+.carousel-caption {
+  text-align: center;
+}
+
+.carousel-caption h4 {
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.carousel-caption .carousel-name {
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-indicators li {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  margin: 0 5px; /* Adjust margin as needed */
+}
+
+.carousel-indicators li img {
+  width: 100%; /* Ensure avatars fill the indicator circle */
+  height: 100%; /* Ensure avatars fill the indicator circle */
+  border-radius: 50%; /* Make avatars circular */
+}
