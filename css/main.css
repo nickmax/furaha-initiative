@@ -628,8 +628,8 @@ strong {
 .featured-block {
   text-align: center;
   transition: all 0.5s ease;
-  min-height: 256px;
-  padding: 15px;
+  min-height: 150px;
+  padding: 1px;
 }
 
 .featured-block:hover {
